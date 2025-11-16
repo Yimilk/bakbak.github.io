@@ -1,0 +1,106 @@
+.navigation a:hover{
+    text-decoration: underline;
+ }
+ .navigation {
+    background-color: #2a8e4fee;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigation a {
+    color: white;
+    background-color:#07702eee ;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-right: 20px;
+    font-size: 16px;
+    transition: 0.5s;
+  }
+  
+  .navigation a:hover {
+    color: #2a8e4fee;
+    background-color: #cccccc;
+  }
+  
+  .loginBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .loginBtn:hover {
+    background-color: aliceblue;
+    color: #007bff;
+
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(135deg, #dff236, #D4A86C, #8A3E9B);
+    text-shadow: 
+      0 0 8px rgba(138, 62, 155, 0.8), 
+      0 0 15px rgba(212, 168, 108, 0.6),
+      1px 1px 0 rgba(0, 0, 0, 0.3),
+      2px 2px 0 rgba(0, 0, 0, 0.2),
+      3px 3px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    letter-spacing: 2px;
+  }
+  
+  h1::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 3px;
+    background: linear-gradient(90deg, #8A3E9B, #D4A86C, #8A3E9B);
+    background-size: 200% 100%;
+    animation: flow 3s linear infinite;
+  }
+  
+  @keyframes flow {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+  body{
+    top: 300px;
+    background: url(img/46.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  p{
+    
+      position: absolute; /* 脱离文档流，不影响背景图 */
+      top: 300px; /* 自定义位置 */
+      left:50px;
+      width: 300px; /* 自定义半透明框宽度 */
+      height: 100px; /* 自定义半透明框高度 */
+      background-color: rgba(255, 255, 255, 0.3);
+      padding: 20px;
+      box-sizing: border-box; /* 让padding不撑大容器 */
+    }
+    html.body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+    }
+  
+  

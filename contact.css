@@ -1,0 +1,82 @@
+.navigation a:hover{
+    text-decoration: underline;
+ }
+ .navigation {
+    background-color: #2a8e4fee;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigation a {
+    color: white;
+    background-color:#07702eee ;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-right: 20px;
+    font-size: 16px;
+    transition: 0.5s;
+  }
+  
+  .navigation a:hover {
+    color: #2a8e4fee;
+    background-color: #cccccc;
+  }
+  
+  .loginBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .loginBtn:hover {
+    background-color: aliceblue;
+    color: #007bff;
+
+  }
+  
+  body{
+    background:url(img/5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  p{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    width: 1500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+    font-weight: 800px;
+    text-align: center;
+  }
+  .love{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    width: 1500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+    font-weight: 800px;
+    text-align: center;
+  }
+
+  hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, #8A3E9B, #D4A86C, #8A3E9B);
+    background-size: 200% 100%;
+    animation: flow 3s linear infinite;
+    position: relative;
+    overflow: hidden;
+  }
